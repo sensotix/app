@@ -45,7 +45,7 @@ export default {
 	},
 	computed: {
 		time() {
-			return formatDistance(new Date(), this.data.time);
+			return formatDistance(this.data.time, new Date());
 		}
 	}
 };
